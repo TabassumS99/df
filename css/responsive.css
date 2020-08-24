@@ -1,0 +1,130 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+ 
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+   
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .banner-content h1 {
+        font-size: 30px;
+    }
+    .bml {
+        margin-left: 28%;
+    }
+
+}
+
+ 
+/* Extra small Device. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .banner-content h1 {
+        font-size: 27px;
+    }
+    .bml {
+        margin-left: 22%;
+    }
+    .title h2 {
+        font-size: 37px;
+    }
+     
+    .portfolio ul.portfolio-miu li h3 {
+        font-size: 14px;
+    }
+    .name.input-group-lg {
+        margin-bottom: 15px;
+    }
+    .message textarea {
+        padding-bottom: 100px;
+    }
+    .footer ul li a {
+        padding-top: 0;
+        padding-bottom: 4px;
+        font-size: 20px;
+    }
+    .footer p {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 370px) and (max-width:575px) {
+    .banner-content h1 {
+        font-size: 22px;
+    }
+    .ovarly {
+        width: 190px;
+        height: 54px;
+    }
+    .b-btn {
+        padding: 14px 28px;
+    }
+    .bml {
+        margin-left: 33%;
+    }
+    .portfolio ul.portfolio-miu li h3 {
+        font-size: 14px;
+    }
+    .title p {
+        font-size: 16px;
+        letter-spacing: -0.3px;
+    }
+    .title h2 {
+        font-size: 35px;
+    }
+    .title h2::before {
+        left: 37%;
+    }
+    .single-about {
+        text-align: center;
+    }
+    .claint-img {
+        margin-bottom: 20px;
+    }
+    .name.input-group-lg {
+        margin-bottom: 15px;
+    }
+    .message textarea {
+        padding-bottom: 100px;
+    }
+    .footer ul li a {
+        padding-top: 0;
+        padding-bottom: 4px;
+        font-size: 20px;
+    }
+    .footer p {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+}
+
+
+/* retina query */
+@media only screen and (-webkit-min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min--moz-device-pixel-ratio:2) and (max-width:991.98px),only screen and (-o-min-device-pixel-ratio:2/1) and (max-width:991.98px),only screen and (min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min-resolution:192dpi) and (max-width:991.98px),only screen and (min-resolution:2dppx) and (max-width:991.98px){
+
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
